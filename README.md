@@ -1,2 +1,9 @@
 # JS-Stack-from-Scratch-Code
-"javascript stack from scratch" notes
+
+## 01 - Node, Yarn, and package.json
+
+### Two kinds of dependencies
+
+Dependencies are libraries you need for your application to function (React, Redux, Lodash, jQuery, etc). You install them with `yarn add [package]`.
+
+Dev Dependencies are libraries used during development or to build your application (Webpack, SASS, linters, testing frameworks, etc). You install those with `yarn add --dev [package]`.
