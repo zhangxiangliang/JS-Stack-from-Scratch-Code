@@ -1,0 +1,9 @@
+{
+  "name": "02-babel-es6-eslint-flow-jest-husky",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  }
+}
