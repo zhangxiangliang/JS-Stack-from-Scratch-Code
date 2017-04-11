@@ -21,7 +21,7 @@
     "jest": "^19.0.2"
   },
   "scripts": {
-    "start": "babel-node src",
+    "start": "babel-node src/server",
     "test": "eslint src && flow && jest --coverage"
   },
   "browserslist": [
