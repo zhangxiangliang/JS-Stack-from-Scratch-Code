@@ -22,7 +22,8 @@
     "nodemon": "^1.11.0"
   },
   "scripts": {
-    "start": "babel-node src/server",
+    "start": "yarn dev:start",
+    "dev:start": "nodemon --ignore lib --exec babel-node src/server",
     "test": "eslint src && flow && jest --coverage"
   },
   "browserslist": [
