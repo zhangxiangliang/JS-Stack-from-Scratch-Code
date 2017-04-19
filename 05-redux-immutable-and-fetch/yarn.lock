@@ -2070,7 +2070,7 @@ fclone@1.0.8:
   version "1.0.8"
   resolved "http://r.cnpmjs.org/fclone/download/fclone-1.0.8.tgz#a0d4a73d983249978c0e0671a161520b996467eb"
 
-fetch-mock@^5.9.4:
+fetch-mock@^5.10.0:
   version "5.10.0"
   resolved "http://r.cnpmjs.org/fetch-mock/download/fetch-mock-5.10.0.tgz#52e29c72800640e48410602fe076ac3615e590ad"
   dependencies:
@@ -4231,7 +4231,7 @@ redux-actions@^2.0.1:
     lodash-es "^4.17.4"
     reduce-reducers "^0.1.0"
 
-redux-mock-store@^1.2.2:
+redux-mock-store@^1.2.3:
   version "1.2.3"
   resolved "http://r.cnpmjs.org/redux-mock-store/download/redux-mock-store-1.2.3.tgz#1b3ad299da91cb41ba30d68e3b6f024475fb9e1b"
 

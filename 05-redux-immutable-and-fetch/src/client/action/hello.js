@@ -15,7 +15,7 @@ export const sayHelloAsyncSuccess = createAction(SAY_HELLO_ASYNC_SUCCESS)
 export const sayHelloAsyncFailure = createAction(SAY_HELLO_ASYNC_FAILURE)
 
 export const sayHelloAsync = (num: number) => (dispatch: Function) => {
-    dispatch(sayHelloAsyncRequest);
+    dispatch(sayHelloAsyncRequest());
     return fetch(helloEndpointRoute(num), { method: 'GET' })
         .then((res) => {
             if(!res.ok) throw Errow(res.statusText)
