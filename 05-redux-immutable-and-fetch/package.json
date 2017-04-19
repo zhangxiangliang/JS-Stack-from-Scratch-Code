@@ -1,0 +1,11 @@
+{
+  "name": "05-redux-immutable-and-fetch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "immutable": "4.0.0-rc.2",
+    "redux": "^3.6.0",
+    "redux-actions": "^2.0.2"
+  }
+}
