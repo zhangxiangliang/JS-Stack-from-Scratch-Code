@@ -1,0 +1,22 @@
+{
+  "name": "06-react-router-ssr-helmet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "flow-bin": "^0.44.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "next",
+    "react-router-dom": "next"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-flow-react-proptypes": "^2.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
