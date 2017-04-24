@@ -11,7 +11,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-helmet": "^5.0.3",
-    "react-hot-loader": "^1.3.1",
+    "react-hot-loader": "^3.0.0-beta.6",
     "react-redux": "^5.0.4",
     "react-router": "next",
     "react-router-dom": "next",
@@ -37,5 +37,10 @@
     "rimraf": "^2.6.1",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.2"
+  },
+  "scripts": {
+    "start": "yarn dev:start",
+    "dev:start": "nodemon -e js,jsx --ignore lib --ignore dist --exec babel-node src/server",
+    "dev:wds": "webpack-dev-server --progress"
   }
 }

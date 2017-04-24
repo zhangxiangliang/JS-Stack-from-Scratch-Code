@@ -11,4 +11,4 @@ const mapDispatchToProps = dispatch => ({
     handleClick: () => dispatch(sayHello('Hello!'))
 })
 
-export default connent(mapStateToProps, mapDispatchToProps)(Button)
+export default connect(mapStateToProps, mapDispatchToProps)(Button)

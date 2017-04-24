@@ -1,6 +1,7 @@
 // @flow
 
 import { connect } from 'react-redux'
+
 import Message from '../component/message'
 
 const mapStateToProps = state => ({
@@ -8,3 +9,4 @@ const mapStateToProps = state => ({
 })
 
 export default connect(mapStateToProps)(Message)
+
